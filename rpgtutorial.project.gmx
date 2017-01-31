@@ -7,7 +7,6 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_walls</sprite>
     <sprites name="player">
       <sprite>sprites\spr_player_attack_right</sprite>
       <sprite>sprites\spr_player_attack_down</sprite>
@@ -18,29 +17,17 @@
       <sprite>sprites\spr_player_up</sprite>
       <sprite>sprites\spr_player_left</sprite>
     </sprites>
-    <sprite>sprites\spr_doors</sprite>
+    <sprite>sprites\spr_wall_hidden</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\bg_dirt</background>
+    <background>background\bg_tiles</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_player</object>
     <objects name="walls">
-      <object>objects\obj_wall_left</object>
-      <object>objects\obj_wall_right</object>
-      <object>objects\obj_wall_bottom</object>
-      <object>objects\obj_wall_bottom_right</object>
-      <object>objects\obj_wall_bottom_left</object>
-      <object>objects\obj_wall_top_right</object>
-      <object>objects\obj_wall_top_left</object>
-      <object>objects\obj_wall_top</object>
       <object>objects\obj_wall</object>
     </objects>
-    <object>objects\obj_door_right</object>
-    <object>objects\obj_door_left</object>
-    <object>objects\obj_door_up</object>
-    <object>objects\obj_door_down</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_game</room>
